@@ -6,7 +6,9 @@
     "host": "localhost",
     "dialect": "mysql",
     "logging": false,
-    "port": 3307
+    "port": 3307,
+    "query" : {"raw": true},
+    "timezone": "+07:00"
   },
   "test": {
     "username": "root",
